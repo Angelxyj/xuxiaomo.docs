@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Headline
+# 前言
 
-> An awesome project.
-
-=======
-# xuxiaomo.docs
->>>>>>> 3f0bff3b3c60294b2c947e466d9403df206e6938
-=======
-# xuxiaomo.docs
->>>>>>> 3f0bff3b3c60294b2c947e466d9403df206e6938
+> Hello，各位好，我是许小墨！
+>
+> 这篇文档集合了一些计算机技术，以及编程知识，可以帮助你通过计算机完成很多事情。
