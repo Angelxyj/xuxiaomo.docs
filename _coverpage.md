@@ -5,5 +5,5 @@
 
 - Copyright © 2023 许小墨 All Rights Reserved.
 
-[许小墨吖](https://xuxiaomo_xyj.gitee.io/xuxiaomo.blog/)
+[许小墨吖](https://angelxyj.gitee.io/xuxiaomo.blog/)
 [开始阅读](README.md)
