@@ -69,3 +69,6 @@
       * [09-vuex的使用](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/09-vuex%E7%9A%84%E4%BD%BF%E7%94%A8.md)
       * [10-vuex中模块化](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/10-vuex%E4%B8%AD%E6%A8%A1%E5%9D%97%E5%8C%96.md)
       * [11-邻家电商](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/11-%E9%82%BB%E5%AE%B6%E7%94%B5%E5%95%86.md)
+      * [12-excel操作图表制作地图](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/12-excel%E6%93%8D%E4%BD%9C%E5%9B%BE%E8%A1%A8%E5%88%B6%E4%BD%9C%E5%9C%B0%E5%9B%BE.md)
+    * Vue3.x
+      * [13-vue3选项式API](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/13-vue3%E9%80%89%E9%A1%B9%E5%BC%8FAPI.md)
