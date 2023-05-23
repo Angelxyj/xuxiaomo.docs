@@ -287,10 +287,3 @@ echarts.registerMap(地图名称, 导入的地图数据)
 
 myCharts.setOption(option)
 ```
-
-
-
-# 今日作业
-
-1. 将echarts封装成一个组件，给子组件传入不同的配置项，显示不同类型的图标
-2. 熟悉柱状图、饼状图、折线图最少5个属性
