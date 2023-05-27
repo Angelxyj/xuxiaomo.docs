@@ -73,3 +73,7 @@
     * Vue3.x
       * [13-vue3选项式API](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/13-vue3%E9%80%89%E9%A1%B9%E5%BC%8FAPI.md)
       * [14-vue3组合式API](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/14-vue3%E7%BB%84%E5%90%88%E5%BC%8FAPI.md)
+      * [15-ts](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/15-ts.md)
+      * [16-pinia](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/16-pinia.md)
+      * [17-vite](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/17-vite.md)
+      * [18-打包和优化](./md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/18-%E6%89%93%E5%8C%85%E5%92%8C%E4%BC%98%E5%8C%96.md)
