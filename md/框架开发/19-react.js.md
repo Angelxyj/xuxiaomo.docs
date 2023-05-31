@@ -1,6 +1,6 @@
 # 一、create-react-app	
 
-全局安装create-react-app
+全局安装create-react-app（旧版，不推荐，现已弃用）
 
 ```sh
 $ npm install -g create-react-app
@@ -17,7 +17,7 @@ Installing packages. This might take a couple of minutes. 安装过程较慢，
 Installing react, react-dom, and react-scripts... 
 ```
 
-如果不想全局安装，可以直接使用npx
+如果不想全局安装，可以直接使用npx（新版，极力推荐）
 
 ```sh
 $ npx create-react-app your-app	也可以实现相同的效果
