@@ -79,11 +79,15 @@
       * [18-打包和优化](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/18-%E6%89%93%E5%8C%85%E5%92%8C%E4%BC%98%E5%8C%96.md)
   * React
     * [19-react全家桶](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/19-react.js.md)
+    * [20-React](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/20-React.md)
+    * [21-Hooks](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/21-Hooks.md)
+    * [22-project](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/22-project.md)
     * 杂记系列
-      * [20-React杂记(一)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/20-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89.md)
-      * [21-React杂记(二)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/21-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89.md)
-      * [22-React杂记(三)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/22-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89.md)
-      * [22-React杂记(四)]
-      * [22-React杂记(五)]
-      * [22-React杂记(六)]
+      * [23-React杂记(一)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/23-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89.md)
+      * [24-React杂记(二)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/24-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89.md)
+      * [25-React杂记(三)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/25-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89.md)
+      * [26-React杂记(四)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/26-React%E6%9D%82%E8%AE%B0%EF%BC%88%E5%9B%9B%EF%BC%89.md)
+      * [27-React杂记(五)]()
+      * [28-React杂记(六)]()
   * 小程序
+    * [小程序开发](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F.md)
