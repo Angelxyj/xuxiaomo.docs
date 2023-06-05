@@ -20,7 +20,7 @@
   * [15-弹性盒模型](md/HTML%2BCSS/15-%E5%BC%B9%E6%80%A7%E7%9B%92%E6%A8%A1%E5%9E%8B.md)
   * [16-移动端布局方案](md/HTML%2BCSS/16-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88.md)
   * [17-网格布局](md/HTML%2BCSS/17-%E7%BD%91%E6%A0%BC%E5%B8%83%E5%B1%80.md)
-  * [99-CSS中的特殊样式](md/HTML%2BCSS/16-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B8%83%E5%B1%80%E6%96%B9%E6%A1%88.md)
+  * [99-CSS中的特殊样式](md/HTML%2BCSS/99-CSS%E4%B8%AD%E7%9A%84%E7%89%B9%E6%AE%8A%E6%A0%B7%E5%BC%8F.md)
 * JavaScript
   * [01-变量+类型+运算](md/JavaScript/01-%E5%8F%98%E9%87%8F%2B%E7%B1%BB%E5%9E%8B%2B%E8%BF%90%E7%AE%97.md)
   * [02-逻辑分支](md/JavaScript/02-%E9%80%BB%E8%BE%91%E5%88%86%E6%94%AF.md)
@@ -88,6 +88,6 @@
       * [25-React杂记(三)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/25-React%E6%9D%82%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89.md)
       * [26-React杂记(四)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/26-React%E6%9D%82%E8%AE%B0%EF%BC%88%E5%9B%9B%EF%BC%89.md)
       * [27-React杂记(组件通信)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/27-React%E6%9D%82%E8%AE%B0%EF%BC%88%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%EF%BC%89.md)
-      * [28-React杂记(六)]()
+      * [28-React杂记(函数组件)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/28-React%E6%9D%82%E8%AE%B0(%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6).md)
   * 小程序
     * [小程序开发](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F.md)
