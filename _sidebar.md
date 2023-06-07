@@ -90,5 +90,6 @@
       * [27-React杂记(组件通信)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/27-React%E6%9D%82%E8%AE%B0%EF%BC%88%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%EF%BC%89.md)
       * [28-React杂记(函数组件)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/28-React%E6%9D%82%E8%AE%B0(%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6).md)
       * [29-React杂记(hooks)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/29-React%E6%9D%82%E8%AE%B0(hooks).md)
+      * [30-React杂记(路由)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/30-React%E6%9D%82%E8%AE%B0(%E8%B7%AF%E7%94%B1).md)
   * 小程序
     * [小程序开发](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F.md)
