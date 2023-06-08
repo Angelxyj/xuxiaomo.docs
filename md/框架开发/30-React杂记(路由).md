@@ -1,6 +1,6 @@
 # 路由
 
-声明：本次使用的路由包版本是5.3.3【当前最新6.0】
+声明：本次使用的路由包版本是5.3.4【当前最新6.0】
 
 ## 1、介绍
 
@@ -13,7 +13,7 @@ React Router官网：https://reactrouter.com/
 使用用React Router前需要先进行安装：
 
 ~~~shell
-npm i react-router-dom@5.3.3
+npm i react-router-dom@5
 ~~~
 
 React Router现在的主版本是5，思想：**一切皆组件**。
@@ -657,4 +657,80 @@ export default withRouter(Cmp)
       <Route path="welcome"  element={<Welcome/>}/>
       ~~~
 
+      父路由
+      
+      ~~~~
+       <Routes>
+                  <Route path="/one" element={<One />} />
+                  <Route path="/two" element={<Two />}>
+                      <Route index element={<Twoa />} />
+                      <Route path='/two/twoa' element={<Twoa />} />
+                       <Route path='/two/twob' element={<Twob />} />
+                  </Route>
+                  <Route path="/" element={<Navigate to="/one" />} />
+              </Routes>
+      ~~~~
+      
+      子路由
+      
+      import { Link, Navigate, Outlet } from 'react-router-dom'
+      
+      ~~~
+      <Link to="twoa">twoa</Link>
+      <Link to="twob">twob</Link>
+      <Outlet />
+      ~~~
+      
+      ## useRoutes
+      
+       可以写路由表，跟据路由表进行切换
+      
+      router/index.js
+      
+      ~~~
+      import One from "../views/one/One";
+      import Two from "../views/two/Two";
+      import Twoa from "../views/two/Twoa";
+      import Twob from "../views/two/Twob";
+      import { Navigate } from "react-router-dom";
+      export const routes=[
+          {
+              path:"/one",
+              element:<One />
+          },
+          {
+              path:"/two",
+              element:<Two />,
+              children:[
+                  {
+                      path:"",
+                      element:<Twoa />
+                  },
+                  {
+                      path:'twoa',
+                      element:<Twoa />
+                  },
+                  {
+                      path:"twob",
+                      element:<Twob />
+                  }
+              ]
+          },
+          {
+              path:"/",
+              element:<Navigate to="/one" />
+          }
+      ]
+      ~~~
+      
+      在组件里App.jsx
+      
+      ~~~
+      import {NavLink, useRoutes} from 'react-router-dom'
+      import { routes } from './router';
+      <NavLink to="/one">one</NavLink>
+      <NavLink to="/two">two</NavLink>
+      {useRoutes(routes)}
+      ~~~
+      
       
