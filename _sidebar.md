@@ -92,5 +92,7 @@
       * [29-React杂记(hooks)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/29-React%E6%9D%82%E8%AE%B0(hooks).md)
       * [30-React杂记(路由)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/30-React%E6%9D%82%E8%AE%B0(%E8%B7%AF%E7%94%B1).md)
       * [31-React杂记(移动端适配)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/31-React%E6%9D%82%E8%AE%B0(%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%80%82%E9%85%8D).md)
+      * [32-React杂记(阶段复习)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/32-React%E6%9D%82%E8%AE%B0(%E9%98%B6%E6%AE%B5%E5%A4%8D%E4%B9%A0).md)
+      * [33-React杂记(Redux)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/33-React%E6%9D%82%E8%AE%B0(Redux).md)
   * 小程序
     * [小程序开发](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F.md)
