@@ -9267,7 +9267,7 @@ export const Braft = ({}: BraftProps) => {
 cnpm i react-markdown react-markdown-editor-lite -S
 ```
 
-![img](assets/5ab5c9ea15ce36d3ba061d5a2e07118ce850b15d.jpeg)
+
 
 ```tsx
 // src/views/editor/MarkDown.tsx
