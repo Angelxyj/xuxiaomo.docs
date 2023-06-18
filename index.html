@@ -34,6 +34,7 @@
 <body>
     <!-- 定义加载时候的动作 -->
     <div id="app">正在加载中...</div>
+    <div id="gitalk-container"></div>
     <script>
         window.$docsify = {
             // 项目名称
@@ -120,15 +121,16 @@
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
         const gitalk = new Gitalk({
-            clientID: 'Github Application Client ID',
-            clientSecret: 'Github Application Client Secret',
-            repo: 'Github repo',
-            owner: 'Github repo owner',
-            admin: ['Github repo collaborators, only these guys can initialize github issues'],
+            clientID: 'b21361233db602955929',
+            clientSecret: '039b5fa4c00f140ff540b4136fcf2ee66e9075d1',
+            repo: 'https://github.com/Angelxyj',
+            owner: 'https://github.com/Angelxyj',
+            admin: ['https://github.com/Angelxyj'],
             // facebook-like distraction free mode
             distractionFreeMode: false,
             id: decodeURI(window.location.pathname),
         })
+        gitalk.render('gitalk-container')
     </script>
     <!-- switch between day and night -->
     <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript">
