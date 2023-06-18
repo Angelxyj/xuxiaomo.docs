@@ -96,5 +96,9 @@
       * [33-React杂记(Redux)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/33-React%E6%9D%82%E8%AE%B0(Redux).md)
       * [34-React杂记(复习)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/34-React%E6%9D%82%E8%AE%B0(%E5%A4%8D%E4%B9%A0).md)
       * [35-React杂记(thunk和RTK)](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/35-React%E6%9D%82%E8%AE%B0(thunk%E5%92%8CRTK).md)
+      * [36-React杂记(hooksreact18)](md/框架开发/36-React杂记(hooksreact18).md)
+      * [37-React-Project](md/框架开发/37-React-Project.md)
+    * React重制版
+      * []
   * 小程序
     * [小程序开发](md/%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F.md)
