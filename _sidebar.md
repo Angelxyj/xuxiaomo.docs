@@ -1,4 +1,6 @@
 <!-- _sidebar.md -->
+<!-- 网页左边的侧边栏 -->
+
 * 写在最前面
   * [前言](README.md) <!--注意这里是相对路径-->
 * HTML+CSS
@@ -110,3 +112,7 @@
 
   * 小程序
     * [小程序开发](md/框架开发/小程序.md)
+
+ - **外部链接**
+ - [我的CSDN](https://blog.csdn.net/qq_60306931)
+ - [我的Blog](https://angelxyj.gitee.io/xuxiaomo.blog/)
