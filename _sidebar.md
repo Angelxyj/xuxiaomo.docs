@@ -112,7 +112,8 @@
           * [cra-ts-pro-reactRouter6-rtk](md/框架开发/react/react-products/react-pc/cra-ts-pro-reactRouter6-rtk.md)
 
   * 小程序
-    * [小程序开发](md/框架开发/小程序.md)
+    * [小程序开发](md/框架开发/40-小程序.md)
+    * [小程序(1)](md/框架开发/41-小程序(1).md)
 
  - **外部链接**
    - [我的CSDN](https://blog.csdn.net/qq_60306931)
