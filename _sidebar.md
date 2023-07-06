@@ -79,6 +79,8 @@
       * [16-pinia](md/框架开发/16-pinia.md)
       * [17-vite](md/框架开发/17-vite.md)
       * [18-打包和优化](md/框架开发/18-打包和优化.md)
+    * Vue重制版
+      * [Vue3.x-JY-options](md/框架开发/vue/Vue3.x-JY-options.md)
   * React
     * [19-react全家桶](md/框架开发/19-react.js.md)
     * [20-React](md/框架开发/20-React.md)
