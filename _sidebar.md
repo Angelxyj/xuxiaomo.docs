@@ -149,6 +149,11 @@
   * 区块链
     * [solidity入门](md/Web3.0/solidity入门.md)
 
+  * Java
+    * 基础入门
+      * [01-Java入门](md/Java/01-Java入门.md)
+
  - **外部链接**
    - [我的CSDN](https://blog.csdn.net/qq_60306931)
    - [我的Blog](https://angelxyj.gitee.io/xuxiaomo.blog/)
+   - [chatGPT]()
