@@ -155,6 +155,10 @@
       * [02-类型转换、运算符](md/Java/02-类型转换、运算符.md)
       * [03-Java流程控制](md/Java/03-Java流程控制.md)
       * [04-Java数组](md/Java/04-Java数组.md)
+      * [05-方法](md/Java/05-方法.md)
+  * Linux
+    * [Linux基础命令](md/Linux/Linux基础命令.md)
+    * [Linux系统软件安装](md/Linux/Linux系统软件安装.md)
 
  - **外部链接**
    - [我的CSDN](https://blog.csdn.net/qq_60306931)
