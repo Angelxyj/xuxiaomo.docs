@@ -155,7 +155,8 @@
       * [02-类型转换、运算符](md/Java/02-类型转换、运算符.md)
       * [03-Java流程控制](md/Java/03-Java流程控制.md)
       * [04-Java数组](md/Java/04-Java数组.md)
-      * [05-方法](md/Java/05-方法.md)
+      * [05-Java方法](md/Java/05-Java方法.md)
+      * [06-Java编程案例（专题）](md/Java/06-Java编程案例（专题）.md)
   * Linux
     * [Linux基础命令](md/Linux/Linux基础命令.md)
     * [Linux系统软件安装](md/Linux/Linux系统软件安装.md)
@@ -163,4 +164,5 @@
  - **外部链接**
    - [我的CSDN](https://blog.csdn.net/qq_60306931)
    - [我的Blog](https://angelxyj.gitee.io/xuxiaomo.blog/)
-   - [chatGPT]()
+   - [我的Guide](https://angelxyj.gitee.io/xuxiaomo.guide/)
+   - [chatGPT](https://angelxyj.gitee.io/xuxiaomo.blog/ChatGPT/)
