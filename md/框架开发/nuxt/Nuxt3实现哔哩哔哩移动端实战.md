@@ -8,17 +8,17 @@ Nuxt 框架提供了一种基于 Node.js 的**服务端渲染方案 SSR（Server
 
 ### 在线预览
 
-https://bilibili.megasu.top/
+<https://bilibili.megasu.top/>
 
-https://nuxt3-bilibili.vercel.app/ (备用)
+<https://nuxt3-bilibili.vercel.app/> (备用)
 
-### 扫码预览
+<!-- ### 扫码预览
 
 <img src="./README/qrcode.png" width="200" />
 
 ### 项目截图
 
-![项目预览](./README/preview.png)
+![项目预览](./README/preview.png) -->
 
 ### 直播收获
 
@@ -47,7 +47,7 @@ https://nuxt3-bilibili.vercel.app/ (备用)
 
 ## 创建 Nuxt3 项目
 
-[Nuxt 官网](https://nuxt.com/) https://nuxt.com/
+[Nuxt 官网](https://nuxt.com/) <https://nuxt.com/>
 
 ### 初始化命令
 
@@ -543,7 +543,7 @@ export default defineEventHandler(() => {
 })
 ```
 
-可通过 http://localhost:3000/api/channel 访问以上频道接口， 文件名的后缀可以是 `.get`, `.post`, `.put`, `.delete` 等，以匹配请求的 HTTP 方法 。
+可通过 <http://localhost:3000/api/channel> 访问以上频道接口， 文件名的后缀可以是 `.get`, `.post`, `.put`, `.delete` 等，以匹配请求的 HTTP 方法 。
 
 参考资料：
 
@@ -1079,4 +1079,4 @@ pnpm generate
 - 部署公司的服务器
 - 部署到第三方平台，如：[vercel (免费)](https://vercel.com)
 
-<img src="./README/qrcode.png" width="200" />
+<!-- <img src="./README/qrcode.png" width="200" /> -->
