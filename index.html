@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>许小墨の技术文档</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <!-- 设置浏览器图标 -->
     <!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> -->
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
 
     <!-- 默认主题 -->
-    <link rel="stylesheet" href="./themes/vue.css">
+    <link rel="stylesheet" href="./themes/vue.css" />
 
     <!-- 官网 -->
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue" /> -->
@@ -28,246 +29,248 @@
     <!-- <link rel="stylesheet" href="./themes/pure.css"> -->
 
     <!-- Gitalk css -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
+    />
 
     <!-- switch between day and night -->
     <!-- 日夜模式切换 -->
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
         title="docsify-darklight-theme" type="text/css" /> -->
-    <link rel="stylesheet" href="./themes/darklight.css">
+    <link rel="stylesheet" href="./themes/darklight.css" />
 
     <style>
-        nav.app-nav li ul {
-            min-width: 100px;
-        }
+      nav.app-nav li ul {
+        min-width: 100px;
+      }
 
-        #carbonads {
-            box-shadow: none !important;
-            width: auto !important;
-        }
+      #carbonads {
+        box-shadow: none !important;
+        width: auto !important;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- 定义加载时候的动作 -->
     <div id="app">正在加载中...</div>
     <!-- <div id="gitalk-container"></div> -->
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
     <script>
-        // Set html "lang" attribute based on URL
-        // var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+      // Set html "lang" attribute based on URL
+      // var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
 
-        // if (lang) {
-        //     document.documentElement.setAttribute('lang', lang[1]);
-        // }
+      // if (lang) {
+      //     document.documentElement.setAttribute('lang', lang[1]);
+      // }
 
-        // Docsify configuration
-        window.$docsify = {
-            // 官网配置
-            // alias: {
-            //     '.*?/awesome':
-            //         'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
-            //     '.*?/changelog':
-            //         'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
-            //     '/.*/_navbar.md': '/_navbar.md',
-            //     '/es/(.*)':
-            //         'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
-            //     '/de-de/(.*)':
-            //         'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
-            //     '/ru-ru/(.*)':
-            //         'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
-            //     '/zh-cn/(.*)':
-            //         'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
-            // },
-            // auto2top: true,
-            coverpage: true,
-            executeScript: true,
-            loadSidebar: true,
-            loadNavbar: true,
-            mergeNavbar: true,
-            maxLevel: 4,
-            subMaxLevel: 2,
-            ga: 'UA-106147152-1',
-            matomo: {
-                host: '//matomo.thunderwave.de',
-                id: 6,
-            },
-            // nameLink: {
-            //     '/es/': '#/es/',
-            //     '/de-de/': '#/de-de/',
-            //     '/ru-ru/': '#/ru-ru/',
-            //     '/zh-cn/': '#/zh-cn/',
-            //     '/': '#/',
-            // },
-            // vueComponents: {
-            //     'button-counter': {
-            //         template:
-            //             '<button @click="count += 1">You clicked me {{ count }} times</button>',
-            //         data: function () {
-            //             return {
-            //                 count: 0,
-            //             };
-            //         },
-            //     },
-            // },
-            // vueGlobalOptions: {
-            //     data: function () {
-            //         return {
-            //             count: 0,
-            //             message: 'Hello, World!',
-            //             // Fake API response
-            //             images: [
-            //                 { title: 'Image 1', url: 'https://picsum.photos/150?random=1' },
-            //                 { title: 'Image 2', url: 'https://picsum.photos/150?random=2' },
-            //                 { title: 'Image 3', url: 'https://picsum.photos/150?random=3' },
-            //             ],
-            //         };
-            //     },
-            //     computed: {
-            //         timeOfDay: function () {
-            //             const date = new Date();
-            //             const hours = date.getHours();
+      // Docsify configuration
+      window.$docsify = {
+        // 官网配置
+        // alias: {
+        //     '.*?/awesome':
+        //         'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
+        //     '.*?/changelog':
+        //         'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
+        //     '/.*/_navbar.md': '/_navbar.md',
+        //     '/es/(.*)':
+        //         'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
+        //     '/de-de/(.*)':
+        //         'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
+        //     '/ru-ru/(.*)':
+        //         'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
+        //     '/zh-cn/(.*)':
+        //         'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
+        // },
+        // auto2top: true,
+        coverpage: true,
+        executeScript: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        mergeNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        ga: "UA-106147152-1",
+        matomo: {
+          host: "//matomo.thunderwave.de",
+          id: 6,
+        },
+        // nameLink: {
+        //     '/es/': '#/es/',
+        //     '/de-de/': '#/de-de/',
+        //     '/ru-ru/': '#/ru-ru/',
+        //     '/zh-cn/': '#/zh-cn/',
+        //     '/': '#/',
+        // },
+        // vueComponents: {
+        //     'button-counter': {
+        //         template:
+        //             '<button @click="count += 1">You clicked me {{ count }} times</button>',
+        //         data: function () {
+        //             return {
+        //                 count: 0,
+        //             };
+        //         },
+        //     },
+        // },
+        // vueGlobalOptions: {
+        //     data: function () {
+        //         return {
+        //             count: 0,
+        //             message: 'Hello, World!',
+        //             // Fake API response
+        //             images: [
+        //                 { title: 'Image 1', url: 'https://picsum.photos/150?random=1' },
+        //                 { title: 'Image 2', url: 'https://picsum.photos/150?random=2' },
+        //                 { title: 'Image 3', url: 'https://picsum.photos/150?random=3' },
+        //             ],
+        //         };
+        //     },
+        //     computed: {
+        //         timeOfDay: function () {
+        //             const date = new Date();
+        //             const hours = date.getHours();
 
-            //             if (hours < 12) {
-            //                 return 'morning';
-            //             } else if (hours < 18) {
-            //                 return 'afternoon';
-            //             } else {
-            //                 return 'evening';
-            //             }
-            //         },
-            //     },
-            //     methods: {
-            //         hello: function () {
-            //             alert(this.message);
-            //         },
-            //     },
-            // },
-            // vueMounts: {
-            //     '#counter': {
-            //         data: function () {
-            //             return {
-            //                 count: 0,
-            //             };
-            //         },
-            //     },
-            // },
-            // 项目名称
-            name: '许小墨の学习笔记',
-            // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-            repo: 'https://github.com/Angelxyj',
-            // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
-            loadSidebar: true,
-            // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
-            loadNavbar: true,
-            // loadNavbar: '_navbar.md',
-            // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
-            coverpage: true,
-            // 最大支持渲染的标题层级
-            maxLevel: 5,
-            // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-            subMaxLevel: 4,
-            // 小屏设备下合并导航栏到侧边栏
-            mergeNavbar: true,
-            /*搜索相关设置*/
-            search: 'auto', // 默认
-            search: [
-                '/',            // => /README.md
-                '/en',          // => /en/README.md
-                // '/cvtutorials', // => /cvtutorials.md
-            ],
-            search: {
-                // noData: {
-                //     '/es/': '¡No hay resultados!',
-                //     '/de-de/': 'Keine Ergebnisse!',
-                //     '/ru-ru/': 'Никаких результатов!',
-                //     '/zh-cn/': '没有结果!',
-                //     '/': 'No results!',
-                // },
-                maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-                paths: 'auto', // 注意：仅适用于 paths: 'auto' 模式
-                placeholder: '搜索',
-                // 支持本地化
-                placeholder: {
-                    '/zh-cn/': '搜索',
-                    '/': '🔍点击这里搜索'
-                },
-                // placeholder: {
-                //     '/es/': 'Buscar',
-                //     '/de-de/': 'Suche',
-                //     '/ru-ru/': 'Поиск',
-                //     '/zh-cn/': '搜索',
-                //     '/': 'Search',
-                // },
-                noData: '找不到结果',
-                depth: 4,
-                hideOtherSidebarContent: false,
-                namespace: '许小墨de技术文档',
-                pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
-                pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
-                // pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
-            },
-            // 配置谷歌分析
-            ga: 'G-**********',
-            // 分页插件
-            pagination: {
-                previousText: '上一章',
-                nextText: '下一章',
-            },
-            // 点击复制
-            copyCode: {
-                buttonText: '点击复制',
-                errorText: '错误',
-                successText: '复制成功'
-            },
-            // plugins: [
-            //     EditOnGithubPlugin.create(
-            //         'https://github.com/Angelxyj/xuxiaomo.docs/tree/main/md/',
-            //         null,
-            //         function (file) {
-            //             if (file.indexOf('en') === -1) {
-            //                 return '编辑'
-            //             } else {
-            //                 return 'edit on git'
-            //             }
-            //         }
-            //     )
-            // ],
-            // plugins: [
-            //     DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
-            //     function (hook, vm) {
-            //         hook.beforeEach(function (html) {
-            //             if (/githubusercontent\.com/.test(vm.route.file)) {
-            //                 url = vm.route.file
-            //                     .replace('raw.githubusercontent.com', 'github.com')
-            //                     .replace(/\/master/, '/blob/master');
-            //             } else if (/jsdelivr\.net/.test(vm.route.file)) {
-            //                 url = vm.route.file
-            //                     .replace('cdn.jsdelivr.net/gh', 'github.com')
-            //                     .replace('@master', '/blob/master');
-            //             } else {
-            //                 url =
-            //                     'https://github.com/docsifyjs/docsify/blob/develop/docs/' +
-            //                     vm.route.file;
-            //             }
-            //             var editHtml = '[:memo: Edit Document](' + url + ')\n';
-            //             return (
-            //                 editHtml +
-            //                 html +
-            //                 '\n\n----\n\n' +
-            //                 '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
-            //             );
-            //         })
-            //     },
-            // ],
-            count: {
-                countable: true,
-                fontsize: '0.9em',
-                color: 'rgb(90,90,90)',
-                language: 'chinese'
-            }
-        }
+        //             if (hours < 12) {
+        //                 return 'morning';
+        //             } else if (hours < 18) {
+        //                 return 'afternoon';
+        //             } else {
+        //                 return 'evening';
+        //             }
+        //         },
+        //     },
+        //     methods: {
+        //         hello: function () {
+        //             alert(this.message);
+        //         },
+        //     },
+        // },
+        // vueMounts: {
+        //     '#counter': {
+        //         data: function () {
+        //             return {
+        //                 count: 0,
+        //             };
+        //         },
+        //     },
+        // },
+        // 项目名称
+        name: "许小墨の学习笔记",
+        // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
+        repo: "https://github.com/Angelxyj",
+        // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
+        loadSidebar: true,
+        // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+        loadNavbar: true,
+        // loadNavbar: '_navbar.md',
+        // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+        coverpage: true,
+        // 最大支持渲染的标题层级
+        maxLevel: 5,
+        // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
+        subMaxLevel: 4,
+        // 小屏设备下合并导航栏到侧边栏
+        mergeNavbar: true,
+        /*搜索相关设置*/
+        search: "auto", // 默认
+        search: [
+          "/", // => /README.md
+          "/en", // => /en/README.md
+          // '/cvtutorials', // => /cvtutorials.md
+        ],
+        search: {
+          // noData: {
+          //     '/es/': '¡No hay resultados!',
+          //     '/de-de/': 'Keine Ergebnisse!',
+          //     '/ru-ru/': 'Никаких результатов!',
+          //     '/zh-cn/': '没有结果!',
+          //     '/': 'No results!',
+          // },
+          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+          paths: "auto", // 注意：仅适用于 paths: 'auto' 模式
+          placeholder: "搜索",
+          // 支持本地化
+          placeholder: {
+            "/zh-cn/": "搜索",
+            "/": "🔍点击这里搜索",
+          },
+          // placeholder: {
+          //     '/es/': 'Buscar',
+          //     '/de-de/': 'Suche',
+          //     '/ru-ru/': 'Поиск',
+          //     '/zh-cn/': '搜索',
+          //     '/': 'Search',
+          // },
+          noData: "找不到结果",
+          depth: 4,
+          hideOtherSidebarContent: false,
+          namespace: "许小墨de技术文档",
+          pathNamespaces: ["/zh-cn", "/ru-ru", "/ru-ru/v1"],
+          pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
+          // pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
+        },
+        // 配置谷歌分析
+        ga: "G-**********",
+        // 分页插件
+        pagination: {
+          previousText: "上一章",
+          nextText: "下一章",
+        },
+        // 点击复制
+        copyCode: {
+          buttonText: "点击复制",
+          errorText: "错误",
+          successText: "复制成功",
+        },
+        // plugins: [
+        //     EditOnGithubPlugin.create(
+        //         'https://github.com/Angelxyj/xuxiaomo.docs/tree/main/md/',
+        //         null,
+        //         function (file) {
+        //             if (file.indexOf('en') === -1) {
+        //                 return '编辑'
+        //             } else {
+        //                 return 'edit on git'
+        //             }
+        //         }
+        //     )
+        // ],
+        // plugins: [
+        //     DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
+        //     function (hook, vm) {
+        //         hook.beforeEach(function (html) {
+        //             if (/githubusercontent\.com/.test(vm.route.file)) {
+        //                 url = vm.route.file
+        //                     .replace('raw.githubusercontent.com', 'github.com')
+        //                     .replace(/\/master/, '/blob/master');
+        //             } else if (/jsdelivr\.net/.test(vm.route.file)) {
+        //                 url = vm.route.file
+        //                     .replace('cdn.jsdelivr.net/gh', 'github.com')
+        //                     .replace('@master', '/blob/master');
+        //             } else {
+        //                 url =
+        //                     'https://github.com/docsifyjs/docsify/blob/develop/docs/' +
+        //                     vm.route.file;
+        //             }
+        //             var editHtml = '[:memo: Edit Document](' + url + ')\n';
+        //             return (
+        //                 editHtml +
+        //                 html +
+        //                 '\n\n----\n\n' +
+        //                 '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+        //             );
+        //         })
+        //     },
+        // ],
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+      };
     </script>
     <!-- docsify的js依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -303,21 +306,23 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
-        const gitalk = new Gitalk({
-            clientID: 'b21361233db602955929',
-            clientSecret: '039b5fa4c00f140ff540b4136fcf2ee66e9075d1',
-            repo: 'Gitalk',
-            owner: 'Angelxyj',
-            admin: ['Angelxyj'],
-            // facebook-like distraction free mode
-            distractionFreeMode: false,
-            id: decodeURI(window.location.pathname),
-        })
-        // gitalk.render('gitalk-container')
+      const gitalk = new Gitalk({
+        clientID: "b21361233db602955929",
+        clientSecret: "039b5fa4c00f140ff540b4136fcf2ee66e9075d1",
+        repo: "Gitalk",
+        owner: "Angelxyj",
+        admin: ["Angelxyj"],
+        // facebook-like distraction free mode
+        distractionFreeMode: false,
+        id: decodeURI(window.location.pathname),
+      });
+      // gitalk.render('gitalk-container')
     </script>
     <!-- switch between day and night -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
-        type="text/javascript"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+      type="text/javascript"
+    ></script>
     <!-- 官网js -->
     <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script> -->
     <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script> -->
@@ -326,20 +331,114 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
     <script>
-        // Public site only
-        if (/docsify/.test(location.host)) {
-            document.write(
-                '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>'
-            );
-            document.write(
-                '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>'
-            );
-        }
+      // Public site only
+      if (/docsify/.test(location.host)) {
+        document.write(
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>'
+        );
+        document.write(
+          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>'
+        );
+      }
     </script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
-</body>
+    <script
+      language="javascript"
+      src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"
+    ></script>
+    <script>
+      //滚动监听箭头样式
+      window.onscroll = function () {
+        var files = document.getElementsByClassName("file");
+        var filesLength = files.length;
 
+        for (var i = 0; i < filesLength; i++) {
+          let next = files[i].nextElementSibling;
+          if (next != null) {
+            if (next.className == "app-sub-sidebar") {
+              if (files[i].className.indexOf("active") != -1) {
+                files[i].setAttribute("isunfold", "  \ue635 ");
+                files[i].style.color = "#42b983";
+              } else {
+                files[i].setAttribute("isunfold", "  \ue637 ");
+                files[i].style.color = "#333333";
+              }
+            } else {
+            }
+          }
+        }
+      };
+
+      //插入箭头样式
+      var nod = document.createElement("style");
+      str =
+        "@font-face {\
+     font-family: 'iconfont'; /* Project id 4084645 */\
+     src: url('//at.alicdn.com/t/c/font_4084645_2sy2lx021sv.woff2?t=1684978602354') format('woff2'),\
+         url('//at.alicdn.com/t/c/font_4084645_2sy2lx021sv.woff?t=1684978602354') format('woff'),\
+         url('//at.alicdn.com/t/c/font_4084645_2sy2lx021sv.ttf?t=1684978602354') format('truetype');\
+     }\
+ \
+     .iconfont {\
+         font-family: 'iconfont' !important;\
+         font-size: 16px;\
+         font-style: normal;\
+         -webkit-font-smoothing: antialiased;\
+         -moz-osx-font-smoothing: grayscale;\
+     }\
+ \
+     .icon-xiazhankai:before {\
+       content: ' \e635';\
+     }\
+ \
+     .icon-youzhankai:before {\
+       content: ' \e637';\
+     }\
+ \
+     .icon-sousuoxiao:before {\
+       content: ' \e8d6';\
+     }\
+ \
+     .sidebar .search .input-wrap input{\
+       font-family: 'iconfont'; /* Project id 4084645 */\
+       width: 200px;\
+       border: 1px solid #42b983;\
+     }\
+ \
+     .sidebar .sidebar-nav .file a:hover{\
+       text-decoration:none;\
+       color:#42b983\
+     }\
+ \
+     .app-sub-sidebar .file:before{\
+       font-family: 'iconfont';\
+       content: attr(isunfold);\
+     }\
+     /* 第一层目录箭头 收起*/\
+     .sidebar > .sidebar-nav > ul > .file > .app-sub-sidebar > .file:before{\
+       font-family: 'iconfont';\
+       content: ' \e637 '';\
+       font-size: 18px;\
+     }\
+     /* 第一层目录箭头 展开*/\
+     .sidebar > .sidebar-nav > ul > .file > .app-sub-sidebar > .active:before{\
+       font-family: 'iconfont';\
+       content: ' \e635 ';\
+       font-size: 18px;\
+       color: #42b983;\
+     }\
+ ";
+      nod.type = "text/css";
+      if (nod.styleSheet) {
+        //ie下
+        nod.styleSheet.cssText = str;
+      } else {
+        nod.innerHTML = str; //或者写成 nod.appendChild(document.createTextNode(str))
+      }
+      document.getElementsByTagName("head")[0].appendChild(nod);
+    </script>
+  </body>
 </html>
 
 <!-- By:许小墨 -->
