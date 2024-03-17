@@ -172,6 +172,13 @@
     * [docker6-图形化工具](md/Docker/docker6-图形化工具.md)
     * [docker7-Docker-Compose](md/Docker/docker7-Docker-Compose.md)
     * [docker8-持续集成与持续交付](md/Docker/docker8-持续集成与持续交付.md)
+  * Nginx
+    * [nginx01-简介](md/Nginx/nginx01-简介.md)
+    * [nginx02-进阶篇](md/Nginx/nginx02-进阶篇.md)
+    * [nginx03-Rewrite功能配置](md/Nginx/nginx03-Rewrite功能配置.md)
+    * [nginx04-负载均衡](md/Nginx/nginx04-负载均衡.md)
+    * [nginx05-服务器集群](md/Nginx/nginx05-服务器集群.md)
+    
 
  - **外部链接**
    - [我的CSDN](https://blog.csdn.net/qq_60306931)
