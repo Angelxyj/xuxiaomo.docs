@@ -461,7 +461,7 @@ export class UserController {
 
 > 更多：https://github.com/typestack/class-validator
 
-<table border="solid" cellspacing="0">
+<table>
     <thead>
     <tr>
         <th>类型</th>
