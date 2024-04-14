@@ -82,6 +82,7 @@
     - Vue 重制版
       - [Vue3.x-JY-options](md/框架开发/vue/Vue3.x-JY-options.md)
       - [Vue3.x-JY-composition](md/框架开发/vue/Vue3.x-JY-composition.md)
+      - [v-model 的使用](md/框架开发/vue/v-model的使用.md)
   - React
     - [19-react 全家桶](md/框架开发/19-react.js.md)
     - [20-React](md/框架开发/20-React.md)
