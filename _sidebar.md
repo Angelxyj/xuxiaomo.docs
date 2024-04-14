@@ -147,11 +147,8 @@
   - [微信小程序及 UinAPP 求职无忧含答案](md/面试题/微信小程序及UinAPP求职无忧含答案.md)
   - [企业项目流程管理求职无忧含答案](md/面试题/企业项目流程管理求职无忧含答案.md)
 - 区块链
-
   - [solidity 入门](md/Web3.0/solidity入门.md)
-
 - 其他语言
-
   - Nestjs
     - [前端中间层](md/Nestjs/前端中间层.md)
     - [Nestjs 简介](md/Nestjs/Nestjs简介.md)
@@ -186,15 +183,16 @@
     - [nginx04-负载均衡](md/Nginx/nginx04-负载均衡.md)
     - [nginx05-服务器集群](md/Nginx/nginx05-服务器集群.md)
     - [Nginx 合集](md/Nginx/Nginx合集.md)
-
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
 - 数据可视化
   - [00 展示规范](md/数据可视化/00%20数据报表展现规范.md)
   - [01 基本概念](md/数据可视化/01%20基本概念.md)
-  - [02 图标类型]
+  - 02 图标类型
     - [可视化图形类型 1](md/数据可视化/02%20可视化图形类型1.md)
     - [可视化图形类型 2](md/数据可视化/03%20可视化图形类型2.md)
+- 性能优化
+  - [前端性能优化](md/性能优化/前端性能优化.md)
 
 * **外部链接**
   - [我的 CSDN](https://blog.csdn.net/qq_60306931)
