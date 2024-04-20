@@ -184,6 +184,7 @@
     - [nginx04-负载均衡](md/Nginx/nginx04-负载均衡.md)
     - [nginx05-服务器集群](md/Nginx/nginx05-服务器集群.md)
     - [Nginx 合集](md/Nginx/Nginx合集.md)
+    - [Nginx 技术](md/Nginx/Nginx技术.md)
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
   - [pnpm + monorepo 项目](md/第三方工具库/pnpm+monorepo项目.md)
