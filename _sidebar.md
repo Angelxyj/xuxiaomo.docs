@@ -185,6 +185,8 @@
     - [nginx05-服务器集群](md/Nginx/nginx05-服务器集群.md)
     - [Nginx 合集](md/Nginx/Nginx合集.md)
     - [Nginx 技术](md/Nginx/Nginx技术.md)
+  - Sentry
+    - [Sentry监控框架](md/Sentry/1.%20Sentry监控框架.md)
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
   - [pnpm + monorepo 项目](md/第三方工具库/pnpm+monorepo项目.md)
@@ -197,6 +199,7 @@
 - 性能优化
   - [前端性能优化](md/性能优化/前端性能优化.md)
   - [前端代码规范](md/性能优化/前端代码规范.md)
+  - [前端性能监控](md/Sentry/1.%20Sentry监控框架.md)
 
 * **外部链接**
   - [我的 CSDN](https://blog.csdn.net/qq_60306931)
