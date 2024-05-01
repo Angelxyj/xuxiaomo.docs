@@ -186,7 +186,7 @@
     - [Nginx 合集](md/Nginx/Nginx合集.md)
     - [Nginx 技术](md/Nginx/Nginx技术.md)
   - Sentry
-    - [Sentry监控框架](md/Sentry/1.%20Sentry监控框架.md)
+    - [Sentry 监控框架](md/Sentry/1.%20Sentry监控框架.md)
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
   - [pnpm + monorepo 项目](md/第三方工具库/pnpm+monorepo项目.md)
@@ -200,6 +200,9 @@
   - [前端性能优化](md/性能优化/前端性能优化.md)
   - [前端代码规范](md/性能优化/前端代码规范.md)
   - [前端性能监控](md/Sentry/1.%20Sentry监控框架.md)
+- 开发工具
+  - VSCode
+    - [00-VSCode 配置](md/开发工具/VScode/00-设置备份篇.md)
 
 * **外部链接**
   - [我的 CSDN](https://blog.csdn.net/qq_60306931)
