@@ -150,6 +150,8 @@
 - 区块链
   - [solidity 入门](md/Web3.0/solidity入门.md)
 - 其他语言
+  - TS
+    - [001_TypeScript 第一章( TS 初体验 )](<md/TypeScript/001_TypeScript%20第一章(%20TS%20初体验%20).md>)
   - Nestjs
     - [前端中间层](md/Nestjs/前端中间层.md)
     - [Nestjs 简介](md/Nestjs/Nestjs简介.md)
