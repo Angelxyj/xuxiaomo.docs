@@ -305,13 +305,23 @@
     const gitalk = new Gitalk({
       clientID: 'b21361233db602955929',
       clientSecret: '039b5fa4c00f140ff540b4136fcf2ee66e9075d1',
-      repo: 'Gitalk',
-      owner: 'Angelxyj',
-      admin: ['Angelxyj'],
+      repo: 'Gitalk', // 存放评论的仓库
+      owner: 'Angelxyj', // 仓库的创建者
+      admin: ['Angelxyj'], // 如果仓库有多个人可以操作，那么在这里以数组形式写出
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      id: decodeURI(window.location.pathname)
+      // id: decodeURI(window.location.pathname)
+      title: location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],
     })
+
+    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+    window.onhashchange = function (event) {
+      if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
+        location.reload()
+      }
+    }
+    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
     // gitalk.render('gitalk-container')
   </script>
   <!-- switch between day and night -->
