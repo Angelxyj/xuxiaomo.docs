@@ -63,6 +63,80 @@
 
     // Docsify configuration
     window.$docsify = {
+      // docsify 初始化的挂载元素，可以是一个 CSS 选择器，默认为 #app 如果不存在就直接绑定在 body 上。
+      el: '#app',
+
+      // 配置仓库地址或者 username/repo 的字符串，会在页面右上角渲染一个 GitHub Corner 挂件。
+      // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
+      repo: 'https://github.com/Angelxyj',
+
+      // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+      // 最大支持渲染的标题层级
+      maxLevel: 5,
+
+      // 加载自定义导航栏，参考定制导航栏 了解用法。设置为 true 后会加载 _navbar.md 文件，也可以自定义加载的文件名。
+      // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+      loadNavbar: true,
+      // loadNavbar: '_navbar.md',
+
+      // 加载自定义侧边栏，参考多页文档。设置为 true 后会加载 _sidebar.md 文件，也可以自定义加载的文件名。
+      // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
+      loadSidebar: true,
+
+      // 这个选项用来完全隐藏侧边栏，侧边栏的任何内容都不会被渲染。
+      hideSidebar: true,
+
+      // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
+      subMaxLevel: 4,
+
+      // 切换页面后是否自动跳转到页面顶部。
+      auto2top: true,
+
+      // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
+      // // 入口文件改为 /home.md
+      // homepage: 'home.md',
+      // // 文档和仓库根目录下的 README.md 内容一致
+      // homepage:
+      //   'https://raw.githubusercontent.com/docsifyjs/docsify/master/README.md',
+
+      // 文档加载的根路径，可以是二级路径或者是其他域名的路径。
+      // basePath: '/path/',
+      // // 直接渲染其他域名的文档
+      // basePath: 'https://docsify.js.org/',
+      // // 甚至直接渲染其他仓库
+      // basePath:
+      //   'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/',
+
+      // 启用相对路径
+      relativePath: true,
+
+      // 启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
+      // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+      coverpage: true,
+      // // 自定义文件名
+      // coverpage: 'cover.md',
+      // // 多个封面页
+      // coverpage: ['/', '/zh-cn/'],
+      // // 多个封面页，并指定文件名
+      // coverpage: {
+      //   '/': 'cover.md',
+      //   '/zh-cn/': 'cover.md',
+      // },
+
+      // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
+      logo: 'icon.svg',
+
+      // 文档标题，会显示在侧边栏顶部。
+      name: '许小墨の学习笔记',
+
+      // 点击文档标题后跳转的链接地址。
+      nameLink: '/',
+      // // 按照路由切换
+      // nameLink: {
+      //   '/zh-cn/': '/zh-cn/',
+      //   '/': '/',
+      // },
+
       // 官网配置
       // alias: {
       //     '.*?/awesome':
@@ -79,14 +153,10 @@
       //     '/zh-cn/(.*)':
       //         'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
       // },
-      // auto2top: true,
-      coverpage: true,
       executeScript: true,
-      loadSidebar: true,
-      loadNavbar: true,
+
       mergeNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
+
       ga: 'UA-106147152-1',
       matomo: {
         host: '//matomo.thunderwave.de',
@@ -152,21 +222,12 @@
       //         },
       //     },
       // },
-      // 项目名称
-      name: '许小墨の学习笔记',
-      // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-      repo: 'https://github.com/Angelxyj',
-      // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
-      loadSidebar: true,
-      // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
-      loadNavbar: true,
-      // loadNavbar: '_navbar.md',
-      // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
-      coverpage: true,
-      // 最大支持渲染的标题层级
-      maxLevel: 5,
-      // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-      subMaxLevel: 4,
+
+
+
+
+
+
       // 小屏设备下合并导航栏到侧边栏
       mergeNavbar: true,
       /*搜索相关设置*/
