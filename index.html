@@ -28,7 +28,8 @@
   <!-- <link rel="stylesheet" href="./themes/pure.css"> -->
 
   <!-- Gitalk css -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+  <link rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
 
   <!-- switch between day and night -->
   <!-- 日夜模式切换 -->
@@ -37,7 +38,8 @@
   <link rel="stylesheet" href="./themes/darklight.css" />
 
   <!-- markdown支持mermaid -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <link rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
 
   <style>
     nav.app-nav li ul {
@@ -56,7 +58,8 @@
   <div id="app">正在加载中...</div>
   <!-- <div id="gitalk-container"></div> -->
   <!-- markdown 支持 mermaid -->
-  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <!-- config -->
   <script>
     // Set html "lang" attribute based on URL
@@ -66,8 +69,8 @@
     //     document.documentElement.setAttribute('lang', lang[1]);
     // }
 
-    var num = 0;
-    mermaid.initialize({ startOnLoad: false });
+    var num = 0
+    mermaid.initialize({ startOnLoad: false })
 
     // Docsify configuration
     window.$docsify = {
@@ -152,9 +155,9 @@
             if (lang === "mermaid") {
               return (
                 '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
-              );
+              )
             }
-            return this.origin.code.apply(this, arguments);
+            return this.origin.code.apply(this, arguments)
           }
         }
       },
@@ -199,23 +202,77 @@
       // 小屏设备下合并导航栏到侧边栏。
       mergeNavbar: true,
 
-      ga: 'UA-106147152-1',
-      matomo: {
-        host: '//matomo.thunderwave.de',
-        id: 6
+      // 我们可以通过 {docsify-updated} 变量显示文档更新日期. 并且通过 formatUpdated配置日期格式。参考 https://github.com/lukeed/tinydate#patterns
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      // 外部链接的打开方式。默认为 _blank （在新窗口或者标签页中打开）
+      // externalLinkTarget: '_self', // default: '_blank',
+
+      // 右上角链接的打开方式。默认为 _blank （在新窗口或者标签页中打开）
+      // cornerExternalLinkTarget: '_self', // default: '_blank',
+
+      // 默认为 noopener (no opener) 可以防止新打开的外部页面（当 externalLinkTarget 设为 _blank 时）能够控制我们的页面，没有设为 _blank 的话就不需要设置这个选项了。
+      externalLinkRel: '', // default: 'noopener'
+
+      // 路由模式
+      routerMode: 'history', // default: 'hash'
+
+      // 当设置了routerMode:'history'时，你可能会面临跨域的问题，参见 #1379 。在 Markdown 内容中，有一个简单的方法可以解决，参见helpers 中的跨域链接。
+      // crossOriginLinks: ['https://example.com/cross-origin-link'],
+
+      // 有时我们不希望 docsify 处理我们的链接
+      // noCompileLinks: ['/foo', '/bar/.*'],
+
+      // 只在访问主页时加载封面。
+      onlyCover: true,
+
+      // 设置请求资源的请求头。
+      requestHeaders: {
+        'cache-control': 'max-age=600',
       },
 
-      // vueComponents: {
-      //     'button-counter': {
-      //         template:
-      //             '<button @click="count += 1">You clicked me {{ count }} times</button>',
-      //         data: function () {
-      //             return {
-      //                 count: 0,
-      //             };
-      //         },
-      //     },
+      // 资源的文件扩展名。
+      ext: '.md',
+
+      /* 一个语言列表。在浏览这个列表中的语言的翻译文档时都会在请求到一个对应语言的翻译文档，不存在时显示默认语言的同名文档
+      Example:
+      尝试访问/de/overview，如果存在则显示
+      如果不存在则尝试/overview（取决于默认语言），如果存在即显示
+      如果也不存在，显示404页面 */
+      // fallbackLanguages: ['fr', 'de'],
+
+      // 在找不到指定页面时加载_404.md
+      notFoundPage: true,
+      // // 加载自定义404页面:
+      // notFoundPage: 'my404.md',
+      // // 加载正确的本地化过的404页面:
+      // notFoundPage: {
+      //   '/': '_404.md',
+      //   '/de': 'de/_404.md',
       // },
+
+      // 让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。当你使用 固定页头 布局时这个选项很有用，可以让你的锚点对齐标题栏。
+      topMargin: 90, // default: 0
+
+      // 创建并注册全局 Vue组件 。组件是以组件名称为键，以包含 Vue 选项的对象为值来指定的。组件data对每个实例都是唯一的，并且在用户浏览网站时不会持久。
+      // vueComponents: {
+      //   'button-counter': {
+      //     template: `
+      //       <button @click="count += 1">
+      //         You clicked me {{ count }} times
+      //       </button>
+      //     `,
+      //     data () {
+      //       return {
+      //         count: 0,
+      //       }
+      //     },
+      //   },
+      // },
+      // 使用  <button-counter></button-counter>
+
+
+      // 指定 Vue选项 ，用于未明确使用vueMounts、vueComponents或markdown脚本挂载的 Vue 内容。对全局data的更改将持续存在，并在任何使用全局引用的地方得到反映。
       // vueGlobalOptions: {
       //     data: function () {
       //         return {
@@ -249,6 +306,8 @@
       //         },
       //     },
       // },
+
+      // 指定要挂载为 Vue实例 的 DOM 元素及其相关选项。挂载元素使用 CSS选择器 作为键，并使用包含 Vue 选项的对象作为其值。每次加载新页面时，Docsify 将挂载主内容区域中第一个匹配的元素。挂载元素data对每个实例来说都是唯一的，并且不会在用户浏览网站时持久存在。
       // vueMounts: {
       //     '#counter': {
       //         data: function () {
@@ -258,6 +317,12 @@
       //         },
       //     },
       // },
+
+      ga: 'UA-106147152-1',
+      matomo: {
+        host: '//matomo.thunderwave.de',
+        id: 6
+      },
 
 
 
@@ -368,43 +433,63 @@
   <!-- carbon广告 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon"></script>
   <!-- docsify的js依赖 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- emoji表情支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- 图片放大缩小支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- 搜索功能支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 谷歌分析 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
   <!-- 分页插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- click to copy -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <!-- 外链脚本 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
   <!-- 在 Github 上编辑 -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script> -->
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- 代码高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
   <!-- 用户评论 -->
   <!-- md5：用来转码url，解决URL太长的问题 -->
-  <script src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+  <script
+    src="https://cdn.bootcdn.net/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
   <!-- plugin：gitalk -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
     const gitalk = new Gitalk({
       clientID: 'Ov23li9yoirrgwi7yuCP',
@@ -432,7 +517,9 @@
     // gitalk.render('gitalk-container')
   </script>
   <!-- switch between day and night -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript"></script>
 
 
   <script>
