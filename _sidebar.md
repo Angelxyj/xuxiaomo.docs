@@ -197,6 +197,7 @@
     - [nginx05-服务器集群](md/Nginx/nginx05-服务器集群.md)
     - [Nginx 合集](md/Nginx/Nginx合集.md)
     - [Nginx 技术](md/Nginx/Nginx技术.md)
+    - [作为前端开发，感受下 nginx 带来的魅力！](md/Nginx/作为前端开发，感受下%20nginx%20带来的魅力.md)
   - Sentry
     - [Sentry 监控框架](md/Sentry/1.%20Sentry监控框架.md)
   - CSS 预处理器
