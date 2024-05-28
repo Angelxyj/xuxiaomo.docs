@@ -202,11 +202,27 @@
   - CSS 预处理器
     - [Sass 完整指南](md/CSS预处理器/Sass完整指南.md)
     - [Less 必知必会](md/CSS预处理器/Less必知必会.md)
+  - Harmony OS
+    - [001-下载和安装](md/HarmonyOS/001_下载和安装.md)
+    - [002-首次安装配置](md/HarmonyOS/002_首次安装配置.md)
+    - [003-中文插件设置](md/HarmonyOS/003_中文插件设置.md)
+    - [004-Hello Harmony](md/HarmonyOS/004_Hello%20Harmony.md)
+    - [005-模拟器运行](md/HarmonyOS/005_模拟器运行.md)
+    - [006-真机运行](md/HarmonyOS/006_真机运行.md)
+    - [007-认识项目工程目录](md/HarmonyOS/007_认识项目工程目录.md)
+    - [008-你好 ArkTS](md/HarmonyOS/008_你好，ArkTS.md)
+    - [009-你好 声明式 UI](md/HarmonyOS/009_你好，声明式UI.md)
+    - [010-像素单位](md/HarmonyOS/010_像素单位.md)
+    - [011-常见装饰器( 简单装饰器 )](<md/HarmonyOS/011_常见装饰器(%20简单装饰器%20).md>)
+    - [012-Blank](md/HarmonyOS/012_Blank.md)
+    - [013-Button](md/HarmonyOS/013_Button.md)
+    - [014-CheckBox](md/HarmonyOS/014_CheckBox.md)
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
   - [pnpm + monorepo 项目](md/第三方工具库/pnpm+monorepo项目.md)
 - 项目基建
   - [Git-代码提交规范](md/项目基建/Git-代码提交规范.md)
+  - [前端基建](md/项目基建/前端基建有哪些？大小公司偏重啥.md)
 - 数据可视化
   - [00 展示规范](md/数据可视化/00%20数据报表展现规范.md)
   - [01 基本概念](md/数据可视化/01%20基本概念.md)
@@ -217,6 +233,9 @@
   - [前端性能优化](md/性能优化/前端性能优化.md)
   - [前端代码规范](md/性能优化/前端代码规范.md)
   - [前端性能监控](md/Sentry/1.%20Sentry监控框架.md)
+- 网络协议
+  - [WebSocket 从入⻔到入土](md/网络协议/WebSocket从⼊⻔到⼊⼟.md)
+  - [全网最佳 websocket 封装](md/网络协议/全网最佳websocket封装.md)
 - 开发工具
   - VSCode
     - [00-VSCode 配置](md/开发工具/VScode/00-设置备份篇.md)
