@@ -218,6 +218,8 @@
     - [012-Blank](md/HarmonyOS/012_Blank.md)
     - [013-Button](md/HarmonyOS/013_Button.md)
     - [014-CheckBox](md/HarmonyOS/014_CheckBox.md)
+    - [015-CheckBoxGroup](md/HarmonyOS/015_CheckBoxGroup.md)
+    - [016-DataPanel](md/HarmonyOS/016_DataPanel.md)
 - 第三方库
   - [class-transformer 介绍](md/第三方工具库/class-transformer介绍.md)
   - [pnpm + monorepo 项目](md/第三方工具库/pnpm+monorepo项目.md)
